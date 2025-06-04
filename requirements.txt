@@ -5,3 +5,6 @@ seaborn
 prophet
 scikit-learn
 plotly
+geopandas
+statsmodels
+numpy
