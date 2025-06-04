@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -217,7 +218,7 @@ with tab3:
     plt.title("Confusion Matrix: Hotspot Prediction")
     plt.tight_layout()
 
-    output_path = "/Users/user/Desktop/clean crime/hotspot_confusion_matrix.png"
+    output_path = os.path.join(os.getcwd(), "hotspot_confusion_matrix.png")
     plt.savefig(output_path)
     plt.close()
 
