@@ -3,5 +3,5 @@ pandas
 matplotlib
 seaborn
 prophet
-scikit-learnAdd commentMore actions
+scikit-learn
 plotly
